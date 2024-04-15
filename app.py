@@ -11,8 +11,10 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.models import model_from_json
 
+import keras
+
 # 模型載入
-model = tf.keras.models.load_model('model.h5')
+model = keras.saving.load_model('model.keras')
 
 col1, col2 = st.columns(2)
 
