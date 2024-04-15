@@ -3,3 +3,4 @@ streamlit==1.8.1
 streamlit-drawable-canvas
 numpy
 scikit-image
+protobuf==3.19.0
